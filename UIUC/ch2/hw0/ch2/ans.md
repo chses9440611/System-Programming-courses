@@ -27,20 +27,23 @@ char* ptr = "Hello";
 *ptr = 'J';
 ```
 
-	-ans: [Stackoverflow](https://leetcode.com/problems/binary-tree-cameras/solution/)
+- ans: [Stackoverflow](https://leetcode.com/problems/binary-tree-cameras/solution/)
 
 1. What is the value of the variable str_size?
 
 ```c=
 ssize_t str_size = "Hello\0World";
 ```
-	- ans: 12
+
+- ans: 12
 
 1. What is the value of the variable str_len?
 
 ```c=
 ssize_t str_size = strlen("Hello\0World");
-	- ans: 5 => strlen count until meet '\0'(not include)
+```
+
+- ans: 5 => strlen count until meet '\0'(not include)
 
 1. Give an example of X such that sizeof(X) is 3
 
